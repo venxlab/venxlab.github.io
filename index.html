@@ -2,101 +2,182 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>SAGE: Coming Soon</title>
-
+	<meta name="viewport" content="width=device-width">
+	<title>SAGE</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
 	<link rel="stylesheet" href="css/style.css">
-	<script src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
-	<script src='js/main.js'></script>
-
 </head>
 <body>
-	<div class="container">
-		<header class="topBar clearfix">
-			<div class="logo">
-				<img src="img/logo.svg" alt="SAGE">
-			</div>	
-			<nav>
-				<div class="submenu clearfix" id='hamburgerSub'>
-					<ul class='level1 clearfix'>
-						<li><h2><a href="#">Work</a><img src="img/icon_arrow_down.svg" alt=""></h2>
-							<ul class='level2'>
-								<li><a href="#">Digital</a></li>
-								<li><a href="#">Editorial Design</a></li>
-								<li><a href="#">Creative Direction</a></li>
-								<li><a href="#">Mobile</a></li>
-							</ul>
-						</li>
-						<li><h2><a href="#">About</a></h2></li>
-						<li><h2><a href="#">Journal</a></h2></li>
-						<li><h2><a href="#">Services</a></h2></li>
-						<li><h2><a href="#">Contact</a></h2></li>
-					</ul>
 
-					<footer>
-						<ul class='submenu_icons clearfix'>
-							<li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-						</ul>
-					</footer>
-				</div>	
-			</nav>
-		</header>
-		<main>
-			<section>
-				<header>
-					<h1>Coming Soon</h1>
-					<p>
-						<b class="lead">
-						We create engaging digital products and services for organisations who want to do something new online.	
-						</b>
-					</p>
-				</header>
-				<p class="content">
-					Go pop-top lifetime any wealth seasoned outside boast. Lifetime good are only. Enjoy extra families hot cause secret splash. Challenge generous crystals simulated colossal extra if mothers so. Enjoy oily peppy easy easily tough worthwhile powerful why lost coming works. That warranty clinically locked-in powerful waxy this.
-				</p>
-			</section>	
-			<aside>
-				<h2>Stay Connected</h2>
-				<p>
-					Join us on our social networks for all the latest updates, product/service announcements and many more.
-				</p>
-
-				<form action="#">
-					<input type="email" placeholder="Type your email to subscribe" /><button>Sign Up</button>
-				</form>	
-
-				<h3 class='social'>
-					<a href="#" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-				</h3>
-				<ul class='twitter_feed'>
-					<li>
-						<article>
-							<p>Checkout our new multipurpose PSD Theme SAGE. It&rsquo;s awesome!</p>
-							<time datetime="2016-02-05">1 Hour ago</time>
-						</article>
-					</li>
+	<header class="top-header">
+		<div class="container">
+			<div class="logo"><img src="img/logo.svg" alt="SAGE"></div>
+			<nav class="navigation">
+				<div class="menu" id='hamburger'>
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<ul>
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Get in Touch</a></li>
 				</ul>
-
-			</aside>
-		</main>
-		<footer>
-			<small class="copyright">&copy; 2015 SAGE Multipurpose Theme. Made by <a href="#">idealUI</a></small>
-			<ul class='legal clearfix'>
-				<li class='clearfix'><a href="#">Terms of Use</a></li>
-				<li class='clearfix'><a href="#">Privacy Policy</a></li>
+			</nav>
+		</div>	
+	</header>
+	<main>
+		<section class="carousel">
+			<ul class="slideshow">
+				<li class="active">
+					<div class="content">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#" class="button">Explore More</a>
+					</div>	
+				</li>
+				<li>
+					<div class="content">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#" class="button">Explore More</a>
+					</div>	
+				</li>
+				<li>
+					<div class="content">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#" class="button">Explore More</a>
+					</div>	
+				</li>
+				<li>
+					<div class="content">
+						<h1>We build websites and apps that people love</h1>
+						<p>Full suite of internet services in the areas of website development, web-based enterprise solutions, corporate identity and advertisement.</p>
+						<a href="#" class="button">Explore More</a>
+					</div>	
+				</li>
 			</ul>
-		</footer>
-	</div>	
+
+			<nav class="pagination">
+				<ul>
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</nav>
+		</section>
+
+		<section class="projects">
+			<h2>My Projects</h2>
+			<div class="clearfix">
+
+				<article>
+					<figure>
+						<a href="#">
+							<img src="img/tesla.png" alt="Tesla">
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									Client: Personal Project
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>
+						</a>	
+					</figure>
+					<h3><a href="#">Model S Catalog</a></h3>
+					<p>Information materials that will help to discover all features of the serial electric car Tesla Model S</p>
+				</article>
+
+				<article>
+					<a href="#">
+						<figure>					
+							<img src="img/discovery_channel.png" alt="">
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									Client: Personal Project
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>					
+						</figure>
+					</a>	
+					<h3><a href="#">Discovery Channel iPad</a></h3>
+					<p>The space is designed to inspire, and pique curiosity and encourage visitors to express their own creativity</p>
+				</article>
+
+				<article>
+					<a href="#">
+						<figure>
+							<img src="img/stuhrling.png" alt="Tesla">
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									Client: Personal Project
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>					
+						</figure>
+					</a>	
+					<h3><a href="#">Stuhrling</a></h3>
+					<p>Flexible multi-concept portfolio theme  based on WordPress. Built by designers, for designers, creative agencies and studios.</p>
+				</article>
+
+				<article>
+					<figure>
+						<a href="#">
+							<img src="img/infinity.png" alt="Tesla">
+							<figcaption>
+								<h4>
+									<time datetime="2014">Year 2014</time>
+									Client: Personal Project
+								</h4>
+								<p>Digital / Mobile / Editorial</p>
+							</figcaption>
+						</a>	
+					</figure>					
+					<h3><a href="#">Infinity Spaces</a></h3>
+					<p>Infinity ∞ is an abstract concept describing something without any limit and is relevant in a number of fields</p>
+				</article>
+
+			</div>	
+			<footer>
+				<div class="link">
+					<a href="#">Show More Projects</a>
+				</div>	
+			</footer>	
+		</section>
+
+		<section class="cta">
+			<h2>Showcasing your work has never been more fun</h2>
+			<p>Discover elegant solution for your online portfolio. Fast, reliable, affordable...</p>
+			<a href="#" class="button">Get In Touch</a>
+		</section>
+		<aside class="social-media">
+			<div class="container">
+				<h2>Stay Connected</h2>
+				<p>Join us on our social networks for all the latest updates, product/service announcements and many more</p>
+				<ul class="clearfix">
+					<li><a href="#" target="_blank" class="social-link"><i class="fa fa-behance"></i>Behance</a></li>
+					<li><a href="#" target="_blank" class="social-link"><i class="fa fa-facebook"></i>Facebook</a></li>
+					<li><a href="#" target="_blank" class="social-link"><i class="fa fa-pinterest"></i>Pinterest</a></li>
+					<li><a href="#" target="_blank" class="social-link">
+	<i class="fa fa-linkedin"></i>LinkedIn</a></li>
+				</ul>
+			</div>	
+		</aside>
+
+	</main>
+	<footer>
+		<small>Copyright &copy; 2015 SAGE Agency Worldwide. All rights reserved.</small>
+	</footer>
 </body>
 </html>
-
 
 
 

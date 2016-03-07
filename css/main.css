@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Teko:400,300);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+*{
+	box-sizing: border-box;
+}
+
+body{	
+	font: 16px/20px 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #c6c4c5;
+}
+
+h1, h2, h3, button{
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h1{
+	font-size: 120px;
+	line-height: 120px;
+	letter-spacing: 18px;
+	margin-bottom: 15px;
+}
+
+h2{
+	font-size: 30px;
+	letter-spacing: 4px;
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+
+.container header{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-bottom: 50px;
+}
+
+nav ul{
+	text-align: right;
+}
+
+
+.slideshow{
+	background: #7e7a7d url(../img/background.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.slideshow li {
+	display: none;
+}
+
+.slideshow .active {
+	display: block;
+	text-align: center;
+}
+
+.slideshow .active h1{
+	display: block;
+}
+
+
